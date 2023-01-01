@@ -1,0 +1,5 @@
+<테스트용 장고 계정>
+
+사용자명: notadmin
+비번: areyouadmin
+이메일: notadmin@gmail.com
