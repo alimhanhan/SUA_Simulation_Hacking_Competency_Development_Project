@@ -71,6 +71,17 @@ payload : burp로 post parameter 변조, text=attack;!@
 ※ 보안 조치 중 장애 유발 행위에 유의
 </div>
 </details>
+<details>
+<summary>📢Rules related to Scores</summary>
+<div markdown="1">
 
+**🚩 참고사항 🚩**
+
+- 모의해킹 보고서 상 있던 취약점들도 조치가 안되었다면, 모두 제보 가능
+- 첫번째 공격 제보자만 점수 부여
+- 보안 조치에 보다 높은 점수 부여
+
+</div>
+</details>
 
 <br><h2>🏆Step_3) 발견 사항 검토 및 사후 보고서 작성</h2>
