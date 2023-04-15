@@ -21,9 +21,9 @@
 
 ![Untitled](https://user-images.githubusercontent.com/102565567/232185322-5642635f-e0b4-4af1-aaaa-ef44f935012e.png)
 
-<br>
 <br><br><h2>🏆Step_2) Web 공방전 및 실시간 보안 패치</h2>
-
+<h3>♟️Duration of Vulnerability Scanning</h3>
+: 2023/01/28 15:00 ~ 2023/02/05 23:59
 
 
 
