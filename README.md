@@ -85,3 +85,4 @@ payload : burp로 post parameter 변조, text=attack;!@
 </details>
 
 <br><h2>🏆Step_3) 발견 사항 검토 및 사후 보고서 작성</h2>
+: Web 공방전을 통해 발견한 취약점들을 기반으로 사후 보고서 작성
