@@ -73,7 +73,7 @@ payload : burp로 post parameter 변조, text=attack;!@
 </details>
 <details>
 <summary>📢Rules related to Scores</summary>
-<div markdown="1">
+<div markdown="1"><br>
 
 **🚩 참고사항 🚩**
 
