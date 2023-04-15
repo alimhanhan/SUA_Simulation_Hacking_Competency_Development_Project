@@ -14,16 +14,16 @@
 7. 게시판 글, 댓글 추천 기능
 8. 서비스 관리자 로그인 서비스
 9. 서비스 관리자 페이지 구현
-10. ( 서비스 관리자 한정 ) 타인이 작성한 글 삭제 서비스<br>
+10. ( 서비스 관리자 한정 ) 타인이 작성한 글 삭제 서비스<br><br>
 
 <h3>♟️Access ink</h3>
 --> https://kadraw.pythonanywhere.com/pybo/](https://kadraw.pythonanywhere.com/pybo/
 
 ![Untitled](https://user-images.githubusercontent.com/102565567/232185322-5642635f-e0b4-4af1-aaaa-ef44f935012e.png)
 
-
+<br>
 <br><br><h2>🏆Step_2) Web 공방전 및 실시간 보안 패치</h2>
-: Kotlin & Java & Room DB & MySQL & Android Studio
+
 
 
 
