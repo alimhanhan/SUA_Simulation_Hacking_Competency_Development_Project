@@ -23,8 +23,41 @@
 
 <br><br><h2>🏆Step_2) Web 공방전 및 실시간 보안 패치</h2>
 <h3>♟️Duration of Vulnerability Scanning</h3>
-: 2023/01/28 15:00 ~ 2023/02/05 23:59
+: 2023/01/28 15:00 ~ 2023/02/05 23:59<br><br>
 
+<details>
+<summary> 📢Rules related to Vulnerability Reporting</summary>
+<div markdown="1">
+
+<br>**🚨 취약점 발견 시**
+
+- 단체 메신저에 아래의 양식을 통해 취약점 제보
+- ✅ 표시 시, 취약점 접수 완료 (점수 반영)
+
+```
+🚨 취약점 제보
+
+target : <http://124.60.4.10:6662/write_action.php>
+payload : burp로 post parameter 변조, text=attack;!@
+impact : 해커의 악의적인 포스팅 작성으로 인한 게시판 사용자에 대한 피싱 공격 가능
+  
++공격 성공 스크린샷 첨부
+```
+
+※ impact는 파급력으로, 상세히 작성<br>
+※ 공격자는 취약점 제보 시 조치 방안 관련 내용을 제외하여 제보<br>
+※ 공방전에서 장애 유발 행위 일체 금지<br>
+
+</div>
+</details>
+<details>
+<summary>📢Rules related to Security Measures</summary>
+<div markdown="1">
+
+안녕
+
+</div>
+</details>
 
 
 <br><h2>🏆Step_3) 발견 사항 검토 및 사후 보고서 작성</h2>
