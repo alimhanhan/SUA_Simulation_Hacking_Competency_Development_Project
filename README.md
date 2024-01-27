@@ -6,7 +6,7 @@
 
 <br><h2>🏆Step_1) 취약점 탐지 환경 구축</h2>
 <h3>♟️Used Tech Stack</h3>
-: Django ( 장고 ) & Pythonanywhere<br>
+: Django ( 장고 ) & Pythonanywhere ( for 배포 )<br>
 
 <br><h3>♟️Implemented Services</h3>
 1. 회원가입 및 로그인 기능
