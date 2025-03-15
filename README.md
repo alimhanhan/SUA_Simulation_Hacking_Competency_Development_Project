@@ -22,7 +22,7 @@
 
 <h3>♟️Access ink</h3>
 --> https://kadraw.pythonanywhere.com/pybo/](https://kadraw.pythonanywhere.com/pybo/
-</br>❌ 현재는 Pythonaywhere 서비스 점검으로 접속 불가합니다! ❌</br>
+</br>❌ 현재는 Pythonaywhere 서비스 점검으로 접속 불가합니다! ❌</br></br>
 
 ![Untitled](https://user-images.githubusercontent.com/102565567/232185322-5642635f-e0b4-4af1-aaaa-ef44f935012e.png)
 
