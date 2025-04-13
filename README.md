@@ -3,6 +3,10 @@
 
 ![포트폴리오 프로젝트 모식도](https://github.com/alimhanhan/SUA_Simulation_Hacking_Competency_Development_Project/assets/102565567/b6e8c1db-9f1a-49be-a116-de35c5478db0)
 
+<br><h2>✔️프로젝트 진행 개요</h2>
+
+![스크린샷 2025-04-14 003545](https://github.com/user-attachments/assets/074716a2-d7a9-4e36-8f59-9adbc18f58e7)
+
 
 <br><h2>🏆Step_1) 취약점 탐지 환경 구축</h2>
 <h3>♟️Used Tech Stack</h3>
